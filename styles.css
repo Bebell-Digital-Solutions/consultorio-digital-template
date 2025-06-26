@@ -169,6 +169,10 @@ header {
   color: var(--primary-color);
 }
 
+
+
+
+
 /* Add this to your CSS */
 .service {
   background: #f1f1f1;
@@ -366,6 +370,7 @@ background: white;
   scroll-snap-type: x mandatory;
   -webkit-overflow-scrolling: touch;
   padding-bottom: 1rem; /* Space for scrollbar */
+  background: white;
 }
 
 .doctors__grid::-webkit-scrollbar {
@@ -388,6 +393,9 @@ background: white;
   position: relative;
   overflow: hidden;
 }
+
+
+
 
 .doctors__socials {
   position: absolute;
@@ -415,6 +423,9 @@ background: white;
 .doctors__socials span:hover {
   color: var(--primary-color);
 }
+
+
+
 
 .doctors__card:hover .doctors__socials {
   bottom: 2rem;
